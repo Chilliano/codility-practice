@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import BinaryGap from './BinaryGap.js';
+import Algorhythm from './Algorhythm';
 
 function App() {
+
   return (
     <div className="App">
       <header>Codility</header>
@@ -12,7 +12,7 @@ function App() {
       <br></br>
       <br></br>
       <div className="solution">
-        <BinaryGap N={2142383646} />
+        <Algorhythm />
       </div>
     </div>
   );

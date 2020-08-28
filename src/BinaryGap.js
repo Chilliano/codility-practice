@@ -1,6 +1,10 @@
 import React from 'react';
 
 const BinaryGap = ({ N }) => {
+  if (!N) {
+    return 0;
+  }
+  
   let max = 0;
   let count = 0;
   const bitRep = N.toString(2).split('');
