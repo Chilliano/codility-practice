@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.scss';
-import BinaryGap from './BinaryGap';
+import BinaryGap from './components/Algorythms/BinaryGap';
 
 function App() {
-
   return (
     <div className="App">
       <header>Codility</header>

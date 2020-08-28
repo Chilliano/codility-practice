@@ -1,6 +1,7 @@
 .solution {
-  background: black;
   border-radius: 5px;
+  border: 2px solid black;
+
   .title {
     color: white;
     width: 100%;
@@ -9,6 +10,7 @@
     border-radius: 5px;
     text-align: center;
   }
+
   .result {
     color: black;
     background: white;
