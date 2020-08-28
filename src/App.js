@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import Algorhythm from './Algorhythm';
+import './App.scss';
+import BinaryGap from './BinaryGap';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <br></br>
       <br></br>
       <div className="solution">
-        <Algorhythm />
+        <BinaryGap />
       </div>
     </div>
   );
