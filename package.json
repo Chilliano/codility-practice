@@ -6,11 +6,19 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "create-react-class": "^15.6.3",
+    "highlight.js": "^10.1.2",
+    "jsx-to-string": "^1.4.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-addons-shallow-compare": "^15.6.2",
     "react-dom": "^16.13.1",
     "react-live": "^2.2.2",
+    "react-lowlight": "^2.0.0",
     "react-markdown": "^4.3.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-syntax-highlighter": "^13.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

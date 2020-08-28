@@ -1,19 +1,20 @@
 import React, { Fragment } from 'react';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
-import Markdown from './components/Markdown';
+import Markdown from './Markdown';
 
-const CodilityWrapper = ({ code, scope, title, description }) => {
+const CodilityWrapper = ({ code, scope, description, escapeHtml }) => {
   return (
     <Fragment>
-      <div className="title">{title}</div>
       <div className="description">
-        <Markdown text={description} />
+        <Markdown text={description} escapeHtml={escapeHtml} />
       </div>
-      <LiveProvider code={code} scope={scope}>
-        <LiveEditor />
-        <LiveError />
-        <LivePreview />
-      </LiveProvider>
+      <div className="code-block">
+        <LiveProvider code={code} scope={scope}>
+          <LiveEditor />
+          <LiveError />
+          <LivePreview />
+        </LiveProvider>
+      </div>
     </Fragment>
   );
 };

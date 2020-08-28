@@ -5,11 +5,9 @@ import BinaryGap from './components/Algorythms/BinaryGap';
 function App() {
   return (
     <div className="App">
-      <header>Codility</header>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <header>
+        <h1>Codility Practice</h1>
+      </header>
       <div className="solution">
         <BinaryGap />
       </div>

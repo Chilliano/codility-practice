@@ -1,19 +1,38 @@
-.solution {
-  border-radius: 5px;
-  border: 2px solid black;
+$padding: 5px 10px;
+$blue: rgb(118, 217, 230);
 
+.solution {
+  padding: $padding;
+  border-radius: 5px;
+  max-width: 1050px;
+  margin: 0 auto;
   .title {
     color: white;
     width: 100%;
     border: 1px solid white;
-    padding: 5px 10px;
     border-radius: 5px;
     text-align: center;
+    padding: $padding;
+    color: $blue;
   }
-
+  .code-block {
+    color: 100%;
+    font-size: 14px;
+    background: rgb(42, 42, 42);
+    border-radius: 4px;
+    overflow: auto;
+    position: relative;
+  }
   .result {
-    color: black;
-    background: white;
-    padding: 5px 10px;
+    color: white;
+    padding: $padding;
+    .value {
+      font-size: 16px;
+    }
   }
+}
+
+header {
+  text-align: center;
+  padding: $padding;
 }

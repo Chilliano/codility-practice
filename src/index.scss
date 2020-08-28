@@ -90,3 +90,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+input,
+textarea,
+[contenteditable] {
+  caret-color: white;
+}
