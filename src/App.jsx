@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import BinaryGap from './components/Algorythms/BinaryGap';
+import { Master } from './components';
 
 function App() {
   return (
@@ -8,9 +8,7 @@ function App() {
       <header>
         <h1>Codility Practice</h1>
       </header>
-      <div className="solution">
-        <BinaryGap />
-      </div>
+      <Master />
     </div>
   );
 }

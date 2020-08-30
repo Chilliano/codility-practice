@@ -4,9 +4,10 @@ import CodilityWrapper from '../../CodilityWrapper';
 const BinaryGap = () => {
   const targetNumber = '12345';
   const scope = { targetNumber };
-  const title = 'BinaryGap';
+
   const description = `
   # BinaryGap
+
   
   ### Find the longest sequence of zeros, in the binary representation of an integer.
 
